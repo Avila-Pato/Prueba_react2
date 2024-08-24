@@ -1,10 +1,8 @@
 1ª Prueba técnica React y Nodejs
-Te damos la bienvenida a la primera prueba técnica del proceso de selección como Senior Software Typescript Developer con React y Nodejs. La prueba consiste en lo siguiente:
 
 Ejercicio 1. Añadir y eliminar elementos de una lista (React)
 Requisitos: Tener instalado Nodejs (v16.x.x o superior). Tener instalado npm.
 
-Duración máxima: 40 minutos
 
 Enunciado:
 
