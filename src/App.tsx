@@ -50,7 +50,7 @@ function App() {
     input.value = ''
   }
 
-  // CREANDO FUNCION APRA BORRAR ELEMENTOS 
+  // CREANDO variable para borrar los elementos
   const handleDelete = (id: ItemID) => {
     setItems(prevItems => prevItems.filter(item => item.id !== id))
   }
@@ -59,7 +59,7 @@ function App() {
     <main>
       <aside>
         <h1>Prueba React</h1>
-        <h2>Añadir y eliminar elementos de la lsita</h2>
+        <h2>Añadir y eliminar elementos de la lista</h2>
 
         <form onSubmit={handleSubmit}>
           <label>
@@ -92,7 +92,7 @@ function App() {
               return (
                 <li key={item.id}>
                   {item.text}
-                  {/* Filtando elementos por id, para eliminarlos.  */}
+            
                   <button onClick={() => {
                     {handleDelete(item.id)}
                   }}>
